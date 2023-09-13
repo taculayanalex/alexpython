@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login Form</title>
+    <title>LOG IN FORM</title>
     <link href='https://fonts.googleapis.com/css?family=Press Start 2P' rel='stylesheet'>
     <style>
         body {
-            background-image: url(https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D&w=1000&q=80);
+            background-image: url(https://e1.pxfuel.com/desktop-wallpaper/103/392/desktop-wallpaper-glowing-yellow-white-dot-particles-flickering-on-a-dark-black-black-sky-background.jpg);
         }
         body {
             font-family: "Press Start 2P"
@@ -14,7 +14,7 @@
         h2 {
             font-family: "Press Start 2P";
             text-align: center;
-            color:#45a049
+            color: green;
         }
 
         .login-container {
@@ -40,7 +40,7 @@
             border-radius: 3px;
         }
         input[type="submit"] {
-            background-color: #4caf50;
+            background-color: green;
             color: white;
             padding: 10px 15px;
             border: none;
@@ -55,7 +55,7 @@
     </style>
 </head>
 <body>
-    <h2>Login</h2>
+    <h2>Welcome To My Accounting System</h2>
     <div class="login-container">
         <form action="test.html" method="post"></form>
             <label for="username">Username:</label>
@@ -69,7 +69,7 @@
         function login() {
             var username = document.getElementById("username").value;
             var password = document.getElementById("password").value;
-            if (username === "soontobe" && password === "softwareengineer") {
+            if (username === "soontobe" && password === "12345678") {
                 window.location.href = "test.html";
             } else {
                 alert("TRY AGAIN!!!");
