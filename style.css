@@ -1,0 +1,58 @@
+.container {
+    margin: 50px;
+    color: black;
+    font-weight: bold;
+    border: 3px solid;
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(to right, skyblue, white);
+}
+.container1 {
+    margin: 50px;
+    color: black;
+    font-weight: bold;
+    border: 3px solid;
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(to right, skyblue, white);
+}
+.container2 {
+    margin: 50px;
+    font-weight: bold;
+    color: black;
+    border: 3px solid;
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(to right, skyblue, white);
+}
+.container3 {
+    margin: 50px;
+    font-weight: bold;
+    color: black;
+    border: 3px solid;
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(to right, skyblue, white);
+}
+h1 {
+    margin: 50px;
+}
+input[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+input[type="submit"]:hover {
+    background-color: green
+}
+body {
+    background-image: url(https://c1.wallpaperflare.com/preview/391/429/184/calculator-calculation-insurance-finance.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <link href='https://fonts.googleapis.com/css?family=Press Start 2P' rel='stylesheet'>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.css">
     <title>Accounting Form</title>
 </head>
 <body>
@@ -15,13 +15,23 @@
         <label for="description">Account Title:</label>
         <input type="text" id="description" name="description" required>
         <br>
-        <label for="debit">Debit Amount:</label>
-        <input type="number" id="debit" name="debit" step="0.01" required>
+        <label for="description">Description:</label>
+        <input type="text" id="description" name="description" required>
         <br>
-        <label for="credit">Credit Amount:</label>
-        <input type="number" id="credit" name="credit" step="0.01" required>
+        <label for="description">Transaction No:</label>
+        <input type="text" id="description" name="description" required>
         <br>
+        <label for="description">Reference Receipt:</label>
+        <input type="text" id="description" name="description" required>
+        <br>
+        <label for="description">Remark:</label>
+        <br>
+        <input type="text" id="description" name="description" required><br>
         <input type="submit" value="Submit">
+        <select id="Click Me">
+            <option value="Credit">Credit</option>
+            <option value="Debit">Debit</option>
+        </select>
     </form>
 </div>
 <div class="container1">
@@ -32,65 +42,77 @@
         <label for="description">Account Title:</label>
         <input type="text" id="description" name="description" required>
         <br>
-        <label for="debit">Debit Amount:</label>
-        <input type="number" id="debit" name="debit" step="0.01" required>
-        <br>
-        <label for="credit">Credit Amount:</label>
-        <input type="number" id="credit" name="credit" step="0.01" required>
-        <br>
-        <input type="submit" value="Submit">
-    </form>
-</div>
-<div class="container2">
-    <form action="process_accounting_entry.php" method="POST">
-        <label for="date">Date:</label>
-        <input type="date" id="date" name="date" required>
-        <br>
-        <label for="description">Account Title:</label>
+        <label for="description">Description:</label>
         <input type="text" id="description" name="description" required>
         <br>
-        <label for="debit">Debit Amount:</label>
-        <input type="number" id="debit" name="debit" step="0.01" required>
-        <br>
-        <label for="credit">Credit Amount:</label>
-        <input type="number" id="credit" name="credit" step="0.01" required>
-        <br>
-        <input type="submit" value="Submit">
-    </form>
-</div>
-<div class="container3">
-    <form action="process_accounting_entry.php" method="POST">
-        <label for="date">Date:</label>
-        <input type="date" id="date" name="date" required>
-        <br>
-        <label for="description">Account Title:</label>
+        <label for="description">Transaction No:</label>
         <input type="text" id="description" name="description" required>
         <br>
-        <label for="debit">Debit Amount:</label>
-        <input type="number" id="debit" name="debit" step="0.01" required>
-        <br>
-        <label for="credit">Credit Amount:</label>
-        <input type="number" id="credit" name="credit" step="0.01" required>
-        <br>
-        <input type="submit" value="Submit">
-    </form>
-</div>
-<div class="container4">
-    <form action="process_accounting_entry.php" method="POST">
-        <label for="date">Date:</label>
-        <input type="date" id="date" name="date" required>
-        <br>
-        <label for="description">Account Title:</label>
+        <label for="description">Reference Receipt:</label>
         <input type="text" id="description" name="description" required>
         <br>
-        <label for="debit">Debit Amount:</label>
-        <input type="number" id="debit" name="debit" step="0.01" required>
-        <br>
-        <label for="credit">Credit Amount:</label>
-        <input type="number" id="credit" name="credit" step="0.01" required>
+        <label for="description">Remark:</label><br>
+        <input type="text" id="description" name="description" required>
         <br>
         <input type="submit" value="Submit">
-    </form>
-</div>
+        <select id="Click Me">
+            <option value="Credit">Credit</option>
+            <option value="Debit">Debit</option>
+        </select>
+        </form>
+    </div>
+    <div class="container2">
+        <form action="process_accounting_entry.php" method="POST">
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+            <br>
+            <label for="description">Account Title:</label>
+            <input type="text" id="description" name="description" required>
+            <br>
+            <label for="description">Description:</label>
+            <input type="text" id="description" name="description" required>
+            <br>
+            <label for="description">Transaction No:</label>
+            <input type="text" id="description" name="description" required>
+            <br>
+            <label for="description">Reference Receipt:</label>
+            <input type="text" id="description" name="description" required>
+            <br>
+            <label for="description">Remark:</label><br>
+            <input type="text" id="description" name="description" required>
+            <br>
+            <input type="submit" value="Submit">
+            <select id="Click Me">
+                <option value="Credit">Credit</option>
+                <option value="Debit">Debit</option>
+            </select>
+            </form>
+        </div>
+        <div class="container3">
+            <form action="process_accounting_entry.php" method="POST">
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+                <br>
+                <label for="description">Account Title:</label>
+                <input type="text" id="description" name="description" required>
+                <br>
+                <label for="description">Description:</label>
+                <input type="text" id="description" name="description" required>
+                <br>
+                <label for="description">Transaction No:</label>
+                <input type="text" id="description" name="description" required>
+                <br>
+                <label for="description">Reference Receipt:</label>
+                <input type="text" id="description" name="description" required>
+                <br>
+                <label for="description">Remark:</label><br>
+                <input type="text" id="description" name="description" required>
+                <br>
+                <input type="submit" value="Submit">
+                <select id="Click Me">
+                    <option value="Credit">Credit</option>
+                    <option value="Debit">Debit</option>
+                </select>
+                </form>        
 </body>
 </html>
